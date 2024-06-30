@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>生日快乐，妈妈！</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url('https://raw.githubusercontent.com/saronsue/birthday-images/main/meihuabeijing.jpeg');
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .heart-container {
+            position: relative;
+            width: 700px;
+            height: 700px;
+            left: -100px; /* 向左移动 */
+        }
+        .photos img {
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .message {
+            position: absolute;
+            text-align: center;
+            color: black;
+            font-size: 28px; /* 调整字体大小 */
+            font-weight: bold;
+            width: 100%;
+            top: 50%;
+            transform: translateY(-50%);
+            line-height: 1.5; /* 调整行间距 */
+        }
+    </style>
+</head>
+<body>
+<div class="heart-container">
+    <div class="message">
+        祝妈妈生日快乐<br>
+        身体慢慢好起来<br>
+        心想事成财运佳<br>
+        一起携手向明天
+    </div>
+    <div class="photos">
+        <img src="https://raw.githubusercontent.com/saronsue/birthday-images/main/photo1.jpg" style="top: 50%; left: 10%; transform: translate(-50%, -50%);" alt="Photo 1">
+        <img src="https://raw.githubusercontent.com/saronsue/birthday-images/main/photo2.jpg" style="top: 22.5%; left: 22.5%; transform: translate(-50%, -50%);" alt="Photo 2">
+        <img src="https://raw.githubusercontent.com/saronsue/birthday-images/main/photo3.jpg" style="top: 10%; left: 50%; transform: translate(-50%, -50%);" alt="Photo 3">
+        <img src="https://raw.githubusercontent.com/saronsue/birthday-images/main/photo4.jpg" style="top: 22.5%; left: 77.5%; transform: translate(-50%, -50%);" alt="Photo 4">
+        <img src="https://raw.githubusercontent.com/saronsue/birthday-images/main/photo5.jpg" style="top: 50%; left: 90%; transform: translate(-50%, -50%);" alt="Photo 5">
+        <img src="https://raw.githubusercontent.com/saronsue/birthday-images/main/photo6.jpg" style="top: 77.5%; left: 77.5%; transform: translate(-50%, -50%);" alt="Photo 6">
+        <img src="https://raw.githubusercontent.com/saronsue/birthday-images/main/photo7.jpg" style="top: 90%; left: 50%; transform: translate(-50%, -50%);" alt="Photo 7">
+        <img src="https://raw.githubusercontent.com/saronsue/birthday-images/main/photo8.jpg" style="top: 77.5%; left: 22.5%; transform: translate(-50%, -50%);" alt="Photo 8">
+    </div>
+</div>
+</body>
+</html>
